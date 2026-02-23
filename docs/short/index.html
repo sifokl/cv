@@ -1,173 +1,208 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saif Ksibi - CV 2026 (Short)</title>
+    <meta
+      name="description"
+      content="Saif Ksibi - Short CV (2026). View online or download PDF."
+    />
 
-  <title>Saif Ksibi - CV 2026 (Short)</title>
-  <meta name="description" content="Saif Ksibi - Short CV (2026). View online or download PDF." />
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-66SSPZJXQL"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-66SSPZJXQL");
+      gtag("event", "open_cv_short");
+    </script>
 
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-66SSPZJXQL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-66SSPZJXQL');
-    gtag('event', 'open_cv_viewer', { cv_version: 'short' });
-  </script>
+    <style>
+      :root {
+        --primary: #0a66c2;
+        --bg: #ffffff;
+        --muted: #f2f4f7;
+        --text: #111;
+      }
 
-  <style>
-    :root {
-      --primary: #0a66c2;
-      --bg: #ffffff;
-      --muted: #f2f4f7;
-      --text: #111;
-    }
+      * {
+        box-sizing: border-box;
+      }
 
-    * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+      }
 
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-    }
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 12px 16px;
+        background: rgba(255, 255, 255, 0.92);
+        backdrop-filter: blur(8px);
+        border-bottom: 1px solid #e9edf3;
+      }
 
-    .topbar {
-      position: sticky;
-      top: 0;
-      z-index: 5;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      padding: 12px 16px;
-      background: rgba(255,255,255,0.92);
-      backdrop-filter: blur(8px);
-      border-bottom: 1px solid #e9edf3;
-    }
+      .left,
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
 
-    .left, .right {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
+      .badge {
+        font-weight: 700;
+        font-size: 14px;
+        padding: 7px 10px;
+        border-radius: 999px;
+        background: var(--muted);
+        color: #333;
+        white-space: nowrap;
+      }
 
-    .badge {
-      font-weight: 700;
-      font-size: 14px;
-      padding: 7px 10px;
-      border-radius: 999px;
-      background: var(--muted);
-      color: #333;
-      white-space: nowrap;
-    }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 14px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+        border: 1px solid transparent;
+        transition: 0.15s ease;
+        white-space: nowrap;
+      }
 
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 14px;
-      border-radius: 12px;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 14px;
-      border: 1px solid transparent;
-      transition: 0.15s ease;
-      white-space: nowrap;
-    }
+      .btn.back {
+        background: var(--muted);
+        color: #333;
+      }
 
-    .btn.back {
-      background: var(--muted);
-      color: #333;
-    }
+      .btn.back:hover {
+        background: #e6f0ff;
+        color: var(--primary);
+      }
 
-    .btn.back:hover {
-      background: #e6f0ff;
-      color: var(--primary);
-    }
+      .btn.download {
+        background: var(--primary);
+        color: #fff;
+        box-shadow: 0 10px 22px rgba(10, 102, 194, 0.18);
+      }
 
-    .btn.download {
-      background: var(--primary);
-      color: #fff;
-      box-shadow: 0 10px 22px rgba(10,102,194,0.18);
-    }
+      .btn.download:hover {
+        background: #084e96;
+        transform: translateY(-1px);
+      }
 
-    .btn.download:hover {
-      background: #084e96;
-      transform: translateY(-1px);
-    }
+      .icon {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        color: currentColor;
+      }
 
-    .icon {
-      width: 18px;
-      height: 18px;
-      display: inline-block;
-      color: currentColor;
-    }
+      .viewer {
+        height: calc(100vh - 58px); /* topbar height approx */
+        width: 100%;
+        border: 0;
+        display: block;
+        background: #fff;
+      }
 
-    .viewer {
-      height: calc(100vh - 58px); /* topbar height approx */
-      width: 100%;
-      border: 0;
-      display: block;
-      background: #fff;
-    }
+      .fallback {
+        padding: 18px 16px;
+        color: #555;
+        display: none;
+      }
 
-    .fallback {
-      padding: 18px 16px;
-      color: #555;
-      display: none;
-    }
+      /* If iframe fails to load, you can show fallback manually if needed */
+    </style>
+  </head>
 
-    /* If iframe fails to load, you can show fallback manually if needed */
-  </style>
-</head>
+  <body>
+    <div class="topbar">
+      <div class="left">
+        <a class="btn back" href="../" aria-label="Back to main page">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+              d="M15 18l-6-6 6-6"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Back
+        </a>
 
-<body>
-  <div class="topbar">
-    <div class="left">
-      <a class="btn back" href="../" aria-label="Back to main page">
-        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        Back
-      </a>
+        <span class="badge">CV 2026 · Short Version</span>
+      </div>
 
-      <span class="badge">CV 2026 · Short Version</span>
+      <div class="right">
+        <a
+          class="btn download"
+          href="saif-ksibi-senior-fullstack-java-spring-boot-developer-2026-cv-short.pdf"
+          download
+          onclick="gtag('event', 'download_cv_short')"
+          aria-label="Download Short CV PDF"
+        >
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path
+              d="M12 3v10"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M8 11l4 4 4-4"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M5 20h14"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          Download PDF
+        </a>
+      </div>
     </div>
 
-    <div class="right">
+    <iframe
+      class="viewer"
+      src="saif-ksibi-senior-fullstack-java-spring-boot-developer-2026-cv-short.pdf"
+      title="Saif Ksibi CV 2026 (Short)"
+    ></iframe>
+
+    <div class="fallback">
+      If the PDF preview does not load, you can
       <a
-        class="btn download"
         href="saif-ksibi-senior-fullstack-java-spring-boot-developer-2026-cv-short.pdf"
-        download
-        onclick="gtag('event','download_cv',{cv_version:'short'});"
-        aria-label="Download Short CV PDF"
+        onclick="gtag('event', 'download_cv_short')"
       >
-        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M12 3v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-          <path d="M8 11l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M5 20h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-        Download PDF
-      </a>
+        download it here </a
+      >.
     </div>
-  </div>
-
-  <iframe
-    class="viewer"
-    src="saif-ksibi-senior-fullstack-java-spring-boot-developer-2026-cv-short.pdf"
-    title="Saif Ksibi CV 2026 (Short)"
-  ></iframe>
-
-  <div class="fallback">
-    If the PDF preview does not load, you can
-    <a href="saif-ksibi-senior-fullstack-java-spring-boot-developer-2026-cv-short.pdf"
-       onclick="gtag('event','download_cv',{cv_version:'short'});">
-      download it here
-    </a>.
-  </div>
-</body>
+  </body>
 </html>
